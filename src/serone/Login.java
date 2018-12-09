@@ -18,7 +18,7 @@ public class Login extends HttpServlet {
 
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("userPassword");
-		pw.println("Login Success.....");
+		//pw.println("username");
 
 		if (userName.equals("Milos") & password.equals("Milos")) {
 			pw.println("Login success.....");
@@ -26,7 +26,6 @@ public class Login extends HttpServlet {
 			pw.println("Login Failed");
 		}
 		pw.close();
-
 	}
 
 }
