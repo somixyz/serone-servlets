@@ -9,21 +9,21 @@
 		<servlet-class>serone.Adding</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Add</servlet-name>	
+		<servlet-name>Add</servlet-name>
 		<url-pattern>/Adding</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>Login</servlet-name>
-		<servlet-class>serone.Login</servlet-class> 
+		<servlet-class>serone.Login</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Login</servlet-name>
 		<url-pattern>/Login</url-pattern>
 	</servlet-mapping>
-	
+
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file> 
+		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
-	 
+
 </web-app>
